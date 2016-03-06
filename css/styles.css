@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#autocomplete {
+    width: 500px;
+    height: 20px;
+    font-size: 18px;
+}
+#search {
+    width: 40px;
+    height: 26px;
+    margin-left: 5px;
+    margin-bottom: 3em;
+}
+
+#autocomplete, #search {
+    display: inline;
+    float: left;
+    
+}
+
+article, footer {
+    margin: 1em 5em;
+}
+#logo {
+    display: block;
+    background-color: #2A2F4E;
+}
+
+table {
+    width: 60%;
+    margin-top: 2em;
+    clear: both;
+}
+
+
+footer {
+    font-size: 12px;
+    margin-top: 20em;
+}
