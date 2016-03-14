@@ -148,6 +148,6 @@ window.onload = function() {
             selectItem();
         }
     };
-    request.open("GET", "data/data_01.json", true);
+    request.open("GET", "data/data_02.json", true);
     request.send(null);
 };
