@@ -116,10 +116,7 @@ function selectItem() {
                                             
                                         } else {
                                         newTdata1 = document.createTextNode(selection[j][0]);
-                    
                                     };
-                     
-                                
                     if (selection[j][1] != "Нет данных") {
                         var price = addCommas(selection[j][1].toFixed(2));
                     } else {
@@ -133,7 +130,6 @@ function selectItem() {
                     newRow.appendChild(newTd1);
                     newRow.appendChild(newTd2);            
                     table.appendChild(newRow);
-                    
                 }
     }
 }
@@ -148,6 +144,6 @@ window.onload = function() {
             selectItem();
         }
     };
-    request.open("GET", "data/data_02.json", true);
+    request.open("GET", "data/data_03.json", true);
     request.send(null);
 };
